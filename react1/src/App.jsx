@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-aaaaah fuck me baby
+ shakti man
     </>
   )
 }
