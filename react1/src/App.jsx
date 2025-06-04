@@ -2,9 +2,12 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
+  // useEffect(()=>{
+  //   console.log("UI is REndering");
+  // });
   useEffect(()=>{
-    console.log("UI is REndering");
-  });
+    console.log("I am here ");
+  },[]);
   const[text,settext]=useState("");
 function change(event){
 console.log(text)
