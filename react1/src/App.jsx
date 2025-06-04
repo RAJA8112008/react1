@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
- shakti man
+    <input type="text"></input>
     </>
   )
 }
