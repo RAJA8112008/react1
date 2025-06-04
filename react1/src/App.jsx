@@ -3,9 +3,9 @@ import './App.css'
 
 function App() {
   const[text,settext]=useState("");
-function change(){
+function change(event){
 console.log(text)
-settext(raja)
+settext(event.target.value);
 }
   return (
     <>
