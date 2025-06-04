@@ -7,7 +7,7 @@ function App() {
   // });
   useEffect(()=>{
     console.log("I am here ");
-  },[]);
+  },[4]);
   const[text,settext]=useState("");
 function change(event){
 console.log(text)
