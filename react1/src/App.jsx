@@ -1,7 +1,10 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
+  useEffect(()=>{
+    console.log("UI is REndering");
+  });
   const[text,settext]=useState("");
 function change(event){
 console.log(text)
