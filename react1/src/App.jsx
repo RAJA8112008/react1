@@ -5,6 +5,7 @@ function App() {
   const[text,settext]=useState("");
 function change(){
 console.log(text)
+settext(raja)
 }
   return (
     <>
