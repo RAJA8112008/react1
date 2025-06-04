@@ -2,11 +2,13 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const[text,settext]=useState("");
+function change(){
+console.log(text)
+}
   return (
     <>
-    <input type="text"></input>
+    <input type="text" onChange={change}></input>
     </>
   )
 }
