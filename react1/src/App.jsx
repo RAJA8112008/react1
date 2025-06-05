@@ -19,6 +19,8 @@ function change(event){
 console.log(text)
 settext(event.target.value);
 }
+
+
   return (
     <>
     <input type="text" onChange={change}></input>
